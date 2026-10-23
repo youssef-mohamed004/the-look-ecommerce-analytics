@@ -286,6 +286,17 @@ To explore the project:
 **Recommended:** Use a desktop version of Microsoft Excel for the best interactive experience when working with the workbook.
 
 ---
+## 📥 Download the Excel Project
+
+The complete Excel dashboard and data model are available here:
+
+[Download The Look Analytics Project](https://docs.google.com/spreadsheets/d/1QYQhjvtCdsTfJzRqKXj_EthW9PG0O_5I/edit?usp=sharing&ouid=101856304224110568452&rtpof=true&sd=true)
+
+**File size:** 190 MB
+**Tools:** Excel, Power Query, Power Pivot, and DAX
+---
+
+---
 
 ## 👤 Author
 

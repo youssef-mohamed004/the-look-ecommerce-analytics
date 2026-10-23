@@ -23,18 +23,18 @@ An end-to-end data analytics project exploring business performance, customer jo
 
 ## 🎯 Project Overview
 
-The Look is a fashion e-commerce analytics project designed to transform raw business data into meaningful insights that support better decision-making.
+The Look is a fashion e-commerce analytics project built using Microsoft Excel to transform raw business data into meaningful insights that support data-driven decision-making.
 
-The project focuses on answering important business questions:
+The project investigates key business questions:
 
 - How is the business performing in terms of revenue, orders, and profitability?
 - Where do sessions drop off throughout the browsing-to-purchase journey?
-- Which traffic sources and product categories contribute to performance?
-- What historical trends and seasonal patterns can help forecast future revenue and demand?
+- Which traffic sources, product categories, and countries contribute most to performance?
+- What historical trends and seasonal patterns can help forecast revenue and demand?
 - How much inventory cost is tied up in unsold products?
 - How do product returns and distribution center performance affect inventory efficiency?
 
-The analysis is presented through five connected dashboard pages, combining KPI monitoring, interactive filtering, historical analysis, forecasting, and operational insights.
+The project brings these analytical perspectives together in five dashboard pages, combining KPI monitoring, interactive filtering, historical analysis, forecasting, and operational insights.
 
 ---
 
@@ -42,20 +42,20 @@ The analysis is presented through five connected dashboard pages, combining KPI 
 
 ### 01 — Home Page
 
-![The Look Home Page](images/01-home-page.png)
+![The Look Home Page](Dashboards/01%20%E2%80%94%20Home%20Page.png)
 
 The main landing page introduces the project's visual identity and provides navigation to the analytical dashboards.
 
 **Highlights**
 - Centralized dashboard navigation.
-- Consistent visual identity inspired by fashion and luxury retail.
-- A unified entry point for exploring business performance and operations.
+- Fashion-inspired visual design using burgundy, black, and beige tones.
+- A unified starting point for exploring business performance and operations.
 
 ### 02 — Executive Overview
 
-![Executive Overview Dashboard](images/02-executive-overview.png)
+![Executive Overview Dashboard](Dashboards/02%20%E2%80%94%20Executive%20Overview.png)
 
-Provides a high-level view of business performance, helping stakeholders understand revenue growth, profitability, order volume, and category and geographic contributions.
+Provides a high-level view of business performance, including revenue growth, profitability, order volume, and category and geographic contributions.
 
 **Key Metrics**
 - Total Revenue
@@ -74,7 +74,7 @@ Provides a high-level view of business performance, helping stakeholders underst
 
 ### 03 — Funnel & Traffic Analysis
 
-![Funnel and Traffic Analysis Dashboard](images/03-funnel-traffic-analysis.png)
+![Funnel and Traffic Analysis Dashboard](Dashboards/03%20%E2%80%94%20Funnel%20%26%20Traffic%20Analysis.png)
 
 Examines the customer journey from browsing sessions to cart activity and purchase sessions, highlighting potential conversion bottlenecks and opportunities to improve marketing effectiveness.
 
@@ -90,13 +90,13 @@ Examines the customer journey from browsing sessions to cart activity and purcha
 **Key Questions**
 - How many browsing sessions progress to cart activity?
 - How many cart sessions fail to reach a purchase?
-- How do traffic sources compare in session volume and conversion?
-- How does cart abandonment change over time?
+- How do traffic sources compare in browsing volume and conversion?
+- How has cart abandonment changed over time?
 - Does conversion vary by day of the week?
 
 ### 04 — Forecasting & Time Intelligence
 
-![Forecasting and Time Intelligence Dashboard](images/04-forecasting-time-intelligence.png)
+![Forecasting and Time Intelligence Dashboard](Dashboards/04%20%E2%80%94%20Forecasting%20%26%20Time%20Intelligence.png)
 
 Explores historical revenue patterns, monthly performance, seasonality, and forecasted revenue and demand.
 
@@ -114,7 +114,7 @@ Explores historical revenue patterns, monthly performance, seasonality, and fore
 
 ### 05 — Supply Chain & Inventory
 
-![Supply Chain and Inventory Dashboard](images/05-supply-chain-inventory.png)
+![Supply Chain and Inventory Dashboard](Dashboards/05%20%E2%80%94%20Supply%20Chain%20%26%20Inventory.png)
 
 Analyzes inventory efficiency, unsold stock, product returns, and distribution center performance to identify opportunities to improve stock allocation and inventory management.
 
@@ -220,7 +220,7 @@ The following findings were identified during the analysis.
 
 The project followed a structured analytics workflow:
 
-1. **Data Preparation** — Prepare and transform data for analysis using Power Query.
+1. **Data Preparation** — Prepare and transform data using Power Query.
 2. **Data Modeling** — Organize tables and relationships to support consistent calculations.
 3. **Business Logic** — Define KPIs and measures aligned with business questions.
 4. **Exploratory Analysis** — Investigate revenue, customer journeys, demand, inventory, and returns.
@@ -235,11 +235,11 @@ A key focus throughout the project was validating the logic behind the metrics a
 
 Based on the findings, the following areas deserve further investigation:
 
-- **Improve cart conversion:** Investigate the reasons cart sessions do not progress to purchase and test potential checkout improvements.
+- **Improve cart conversion:** Investigate why cart sessions do not progress to purchase and test potential checkout improvements.
 - **Increase average order value:** Explore product bundles, complementary product recommendations, and category-specific promotions.
 - **Optimize inventory allocation:** Review slow-moving products and compare stock availability with demand across distribution centers.
 - **Plan for seasonality:** Use historical trends and forecasts to support inventory and demand planning ahead of seasonal changes.
-- **Investigate returns:** Analyze return patterns by category and period to identify possible opportunities to improve product information, quality, and customer expectations.
+- **Investigate returns:** Analyze return patterns by category and period to identify opportunities to improve product information, quality, and customer expectations.
 - **Monitor key markets:** Evaluate performance across major revenue-contributing countries to identify opportunities for sustainable growth.
 
 These recommendations are potential actions derived from the observed metrics; additional analysis would be required to validate their expected impact.
@@ -256,24 +256,20 @@ Forecasts are estimates based on historical patterns and should not be treated a
 
 ## 📁 Project Structure
 
-The repository is organized around the Excel workbook, dashboard screenshots, and project documentation.
-
 ```text
-The-Look-Ecommerce-Analytics/
+the-look-ecommerce-analytics/
 │
 ├── README.md
 │
-├── images/
-│   ├── 01-home-page.png
-│   ├── 02-executive-overview.png
-│   ├── 03-funnel-traffic-analysis.png
-│   ├── 04-forecasting-time-intelligence.png
-│   └── 05-supply-chain-inventory.png
-│
-└── The-Look-Analytics.xlsx
+└── Dashboards/
+    ├── 01 — Home Page.png
+    ├── 02 — Executive Overview.png
+    ├── 03 — Funnel & Traffic Analysis.png
+    ├── 04 — Forecasting & Time Intelligence.png
+    └── 05 — Supply Chain & Inventory.png
 ```
 
-*Update the workbook filename in this structure if your actual Excel file uses a different name.*
+*The structure above reflects the dashboard screenshots currently uploaded to the repository. Add the Excel workbook to the repository if you want visitors to download and explore the interactive dashboards.*
 
 ---
 
@@ -281,27 +277,27 @@ The-Look-Ecommerce-Analytics/
 
 To explore the project:
 
-1. Clone or download this repository.
-2. Open the Excel workbook in Microsoft Excel.
-3. Enable the features required by the workbook, if prompted.
+1. Open the dashboard screenshots in the `Dashboards` folder.
+2. Review the dashboard descriptions and key findings in this README.
+3. If the Excel workbook is added to the repository, download it and open it in Microsoft Excel.
 4. Navigate through the dashboard pages using the built-in navigation buttons.
 5. Explore available filters and slicers to investigate different business dimensions.
-6. Review the README screenshots and key findings for an overview of the analysis.
 
-**Recommended:** Use a desktop version of Microsoft Excel for the best interactive experience.
+**Recommended:** Use a desktop version of Microsoft Excel for the best interactive experience when working with the workbook.
 
 ---
 
 ## 👤 Author
 
-**[Your Name]**
+**Youssef Mohamed**
 
-Aspiring Data Analyst | Interested in Business Intelligence, Data Visualization, and Data-Driven Decision-Making.
+Aspiring Data Analyst interested in Business Intelligence, Data Visualization, and Data-Driven Decision-Making.
 
-This project represents my hands-on work in applying Excel analytics techniques to a fashion e-commerce business scenario.
+This project represents hands-on practice in applying Excel analytics techniques to a fashion e-commerce business scenario.
 
-- **LinkedIn:** [Add your LinkedIn profile URL]
-- **GitHub:** [Add your GitHub profile URL]
+- **GitHub:** [@youssef-mohamed004](https://github.com/youssef-mohamed004)
+- **Project Repository:** [the-look-ecommerce-analytics](https://github.com/youssef-mohamed004/the-look-ecommerce-analytics)
+- **LinkedIn:** [Add your LinkedIn profile URL here](https://www.linkedin.com/in/youssef-mohamed-6038092b2/).
 
 ---
 

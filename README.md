@@ -297,7 +297,7 @@ This project represents hands-on practice in applying Excel analytics techniques
 
 - **GitHub:** [@youssef-mohamed004](https://github.com/youssef-mohamed004)
 - **Project Repository:** [the-look-ecommerce-analytics](https://github.com/youssef-mohamed004/the-look-ecommerce-analytics)
-- **LinkedIn:** [Add your LinkedIn profile URL here](https://www.linkedin.com/in/youssef-mohamed-6038092b2/).
+- **LinkedIn:** [Youssef Mohamed](https://www.linkedin.com/in/youssef-mohamed-6038092b2/).
 
 ---
 
